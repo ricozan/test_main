@@ -14,11 +14,13 @@ git checkout main
 git push -u origin main
 
 # after this we interact only with its remote repo for main and branch
+```
 
 ## rebase
 Commands needed when the main and the branch develop in parallel.
 If you want to fast forward the branch to main, it is good to rebase
 often the branch:
+
 ```
 # 1. Switch to main and pull the latest changes from the public repo
 git checkout main
@@ -30,7 +32,9 @@ git checkout your-feature-branch
 # 3. Rebase your feature branch on top of main
 git rebase main
 ```
+
 And we will need to force the push to private repo:
+
 ```
 git push --force-with-lease private your-feature-branch
 ```
