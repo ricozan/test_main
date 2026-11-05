@@ -2,12 +2,12 @@ A note I can merge effordlessly.
 
 I created a private repo and I'm commiting the branch there.
 
-And in the branch I keep messing with this file.
+And in the branch I keep messing up with this file.
 
-5/11/2026 This repo turn public
+5/11/2026 This repo turns public
 
 
 
-complicating thing to myself by changing this file in both
+complicating things to myself by changing this file in both
 private and main repos
 
